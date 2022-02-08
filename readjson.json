@@ -1,0 +1,63 @@
+{
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue,
+08 Feb 2022 20: 32: 43 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"279098ddc0603b7b961867ef70a441d507ebe1260dd0d1bd977fb6f4a338e18b"
+Last-Modified: Sun,
+23 Jan 2022 15: 17: 48 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1644355046
+X-RateLimit-Resource: core
+X-RateLimit-Used: 3
+Accept-Ranges: bytes
+Content-Length: 414
+X-GitHub-Request-Id: 1D71: 2D29:3EC532: 952B01: 6202D36B
+connection: close
+}
+
+{
+    "login": "Momentum-Team-11",
+    "id": 98239349,
+    "node_id": "O_kgDOBdsDdQ",
+    "url": "https://api.github.com/orgs/Momentum-Team-11",
+    "repos_url": "https://api.github.com/orgs/Momentum-Team-11/repos",
+    "events_url": "https://api.github.com/orgs/Momentum-Team-11/events",
+    "hooks_url": "https://api.github.com/orgs/Momentum-Team-11/hooks",
+    "issues_url": "https://api.github.com/orgs/Momentum-Team-11/issues",
+    "members_url": "https://api.github.com/orgs/Momentum-Team-11/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/Momentum-Team-11/public_members{/member}",
+    "avatar_url": "https://avatars.githubusercontent.com/u/98239349?v=4",
+    "description": "",
+    "name": "Momentum Team 11",
+    "company": null,
+    "blog": null,
+    "location": null,
+    "email": null,
+    "twitter_username": null,
+    "is_verified": false,
+    "has_organization_projects": true,
+    "has_repository_projects": true,
+    "public_repos": 114,
+    "public_gists": 0,
+    "followers": 0,
+    "following": 0,
+    "html_url": "https://github.com/Momentum-Team-11",
+    "created_at": "2022-01-22T22:22:18Z",
+    "updated_at": "2022-01-23T15:17:48Z",
+    "type": "Organization"
+}

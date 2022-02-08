@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue,
+08 Feb 2022 18: 58: 17 GMT
+Content-Type: application/json; charset=utf-8
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"1649d87e324384cb35235aef48115636886a16d843686ec35167c2ca41e49ea3"
+Last-Modified: Thu,
+18 Nov 2021 01: 46: 57 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 50
+X-RateLimit-Reset: 1644347675
+X-RateLimit-Resource: core
+X-RateLimit-Used: 10
+Accept-Ranges: bytes
+Content-Length: 466
+X-GitHub-Request-Id: 1C49: 5614: 879946: 1666979: 6202BD49
+connection: close
+
+{
+    "login": "ryanurbanski",
+    "id": 36831427,
+    "node_id": "MDQ6VXNlcjM2ODMxNDI3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/36831427?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ryanurbanski",
+    "html_url": "https://github.com/ryanurbanski",
+    "followers_url": "https://api.github.com/users/ryanurbanski/followers",
+    "following_url": "https://api.github.com/users/ryanurbanski/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ryanurbanski/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ryanurbanski/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ryanurbanski/subscriptions",
+    "organizations_url": "https://api.github.com/users/ryanurbanski/orgs",
+    "repos_url": "https://api.github.com/users/ryanurbanski/repos",
+    "events_url": "https://api.github.com/users/ryanurbanski/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ryanurbanski/received_events",
+    "type": "User",
+    "site_admin": false,
+    "name": "Ryan Urbanski",
+    "company": null,
+    "blog": "",
+    "location": null,
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 8,
+    "public_gists": 0,
+    "followers": 0,
+    "following": 0,
+    "created_at": "2018-02-26T02:48:52Z",
+    "updated_at": "2021-11-18T01:46:57Z"
+}
