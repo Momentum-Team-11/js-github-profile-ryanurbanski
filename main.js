@@ -18,8 +18,17 @@ fetch(url)
         document.querySelector('#profile-container').innerHTML = `<div class="header-container">
             <img id="avatar-pic" src=${data.avatar_url} >
         </div>`
+        
         document.querySelector('.header-container').innerHTML += `<h2>${data.name}</h2>`
-        document.querySelector('#profile-container').innerHTML += ``
+        document.querySelector('#profile-container').innerHTML += ` <div class="info-container">
+            <p>Location: ${data.location}</p>
+            <p>
+                GitHub URL: ${data.url}
+            </p>
+            <p>GitHub username: ${data.login}</p>
+
+        </div>`
+        
     })
 
 
