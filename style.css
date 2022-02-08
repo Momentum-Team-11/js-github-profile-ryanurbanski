@@ -6,4 +6,26 @@ img {
     max-width: 150px;
     height: 150px ;
     border-radius: 85px;
+    display: inline-flex;
+}
+
+h2 {
+    display: inline-flex;
+}
+
+body {
+    /* background-color: lightgrey; */
+    justify-content: center;
+}
+
+#profile-container {
+    /* background-color: indianred; */
+}
+
+.header-container {
+    background-color: aqua;
+    display: inline-flex;
+    flex-direction: row;
+    /* vertical-align: middle; */
+    align-items: center;
 }

@@ -15,9 +15,11 @@ const url = "http://api.github.com/users/ryanurbanski"
 fetch(url)
     .then((result) => result.json())
     .then((data) => {
-        document.querySelector('#profile-container').innerHTML = `<img id="avatar-pic" src=${data.avatar_url} >`
-        document.querySelector('#profile-container').innerHTML += `<h2>${data.name}</h2>`
-
+        document.querySelector('#profile-container').innerHTML = `<div class="header-container">
+            <img id="avatar-pic" src=${data.avatar_url} >
+        </div>`
+        document.querySelector('.header-container').innerHTML += `<h2>${data.name}</h2>`
+        document.querySelector('#profile-container').innerHTML += ``
     })
 
 
