@@ -40,7 +40,9 @@ fetch(url)
             </div>
         `
         for (let repo of data) {
-            document.querySelector('#repo-container').innerHTML = "working!!!!!!"
+            document.querySelector('#repo-container').innerHTML += `
+                <p><a href=${repo.url}>${repo.name}</a></p>
+            `
         }
     })
 
