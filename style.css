@@ -9,23 +9,26 @@ img {
     display: inline-flex;
 }
 
-h2 {
-    display: inline-flex;
-}
-
 body {
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
     justify-content: center;
 }
 
 #profile-container {
-    /* background-color: indianred; */
+    background-color: slateblue;
 }
 
 .header-container {
     background-color: aqua;
     display: inline-flex;
     flex-direction: row;
-    /* vertical-align: middle; */
     align-items: center;
+}
+
+.info-container {
+    background-color: indianred;
+}
+
+#repo-container {
+    background-color: darkcyan;
 }

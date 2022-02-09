@@ -23,7 +23,7 @@ fetch(url)
         document.querySelector('#profile-container').innerHTML += ` <div class="info-container">
             <p>Location: ${data.location}</p>
             <p>
-                GitHub URL: ${data.url}
+                GitHub URL: <a href=${data.url}>${data.name}</a>
             </p>
             <p>GitHub username: ${data.login}</p>
 
