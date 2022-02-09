@@ -1,0 +1,3 @@
+GET http://api.github.com/ryanurbanski
+###
+GET http://api.github.com/users/ryanurbanski/repos

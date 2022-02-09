@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
 Server: GitHub.com
-Date: Tue,
-08 Feb 2022 18: 58: 17 GMT
+Date: Wed,
+09 Feb 2022 05: 20: 40 GMT
 Content-Type: application/json; charset=utf-8
 Cache-Control: public, max-age=60, s-maxage=60
 Vary: Accept, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"1649d87e324384cb35235aef48115636886a16d843686ec35167c2ca41e49ea3"
-Last-Modified: Thu,
-18 Nov 2021 01: 46: 57 GMT
+ETag: W/"6663e470686a9755b9f175fb5ba704016499a8e2262b35417d105e52aa679f02"
+Last-Modified: Tue,
+08 Feb 2022 23: 07: 45 GMT
 X-GitHub-Media-Type: github.v3; format=json
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -19,13 +19,13 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Content-Encoding: gzip
 X-RateLimit-Limit: 60
-X-RateLimit-Remaining: 50
-X-RateLimit-Reset: 1644347675
+X-RateLimit-Remaining: 44
+X-RateLimit-Reset: 1644385739
 X-RateLimit-Resource: core
-X-RateLimit-Used: 10
+X-RateLimit-Used: 16
 Accept-Ranges: bytes
-Content-Length: 466
-X-GitHub-Request-Id: 1C49: 5614: 879946: 1666979: 6202BD49
+Content-Length: 483
+X-GitHub-Request-Id: 1C43: 60C5: 53E4E6:D07931: 62034F28
 connection: close
 
 {
@@ -50,7 +50,7 @@ connection: close
     "name": "Ryan Urbanski",
     "company": null,
     "blog": "",
-    "location": null,
+    "location": "North Myrtle Beach, SC",
     "email": null,
     "hireable": null,
     "bio": null,
@@ -60,5 +60,5 @@ connection: close
     "followers": 0,
     "following": 0,
     "created_at": "2018-02-26T02:48:52Z",
-    "updated_at": "2021-11-18T01:46:57Z"
+    "updated_at": "2022-02-08T23:07:45Z"
 }
