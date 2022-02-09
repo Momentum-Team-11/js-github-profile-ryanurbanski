@@ -28,7 +28,20 @@ fetch(url)
             <p>GitHub username: ${data.login}</p>
 
         </div>`
-        
+        return data.repos_url
+    })
+    .then((reposUrl) => fetch(reposUrl))
+    .then((result) => result.json())
+    .then((data) => {
+        console.log(data)
+        document.querySelector('#profile-container').innerHTML += `
+            <div id="repo-container">
+                <h3>GitHub Repos </h3>
+            </div>
+        `
+        for (let repo of data) {
+            document.querySelector('#repo-container').innerHTML = "working!!!!!!"
+        }
     })
 
 
